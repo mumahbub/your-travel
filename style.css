@@ -1,0 +1,422 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.primary_colors {
+    color: #FF5400;
+}
+
+.button_primary_colors {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #FF5400;
+    color: azure;
+    border: 0cap;
+    margin-left: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 53px;
+}
+
+
+.nav_first_sec {
+    display: flex;
+}
+
+.menu_bar {
+    height: 30px;
+    width: 30px;
+    visibility: hidden;
+}
+
+.nav_first_sec img {
+    height: 56px;
+    width: 48px;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Banner section */
+.banner_section {
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.banner_class_1 {
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+.banner_class_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    size: 16px;
+}
+
+.Explore {
+    font-size: 64px;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+/* Our Popular Tours  */
+.popular_tours {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.popular_tours_text {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.popular_tours_text img {
+    width: 450px;
+    height: 400px;
+    padding-left: 120px;
+}
+
+/* Choose Your Destination  */
+.Destination_text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#Destination {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fist_destination {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.country {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+}
+
+.country_1 {
+    top: 40%;
+    left: 20%;
+}
+
+.country_2 {
+    top: 40%;
+    right: 20%;
+}
+
+.country_3 {
+    top: 40%;
+    left: 11%;
+}
+
+.country_4 {
+    top: 40%;
+    right: 35%;
+}
+
+.country_5 {
+    top: 40%;
+    right: 8%;
+}
+
+.country_6 {
+    top: 40%;
+    left: 20%;
+}
+
+.country_7 {
+    top: 40%;
+    right: 12%;
+}
+
+/*     <!-- Why Choose Us -->    */
+
+.choose_us_text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.choose_us {
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.choose_us_1 {
+    width: 50%;
+    height: 273px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin-right: 20px;
+    border-style: solid;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 30px;
+    background-color: rgb(251, 181, 99, 0.05);
+}
+
+.choose_us_2 {
+    margin-left: 300px;
+    justify-content: center;
+    width: 50%;
+    height: 273px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 30px;
+    background-color: rgba(6, 255, 209, 0.095);
+}
+
+/* Newsletter  */
+.last_section {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 35%;
+    gap: 20px;
+    border-style: solid;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 350px;
+
+}
+
+.number {
+    text-align: center;
+    width: 392px;
+    height: 32px;
+    border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.Subscribe {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #FF5400;
+    font-weight: 700;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.last_section img{
+    height: 358px;
+    width: 600px;
+}
+
+
+
+
+
+/* Media mobile */
+@media screen and (max-width:600px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    /* Nav section */
+    nav {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    nav li {
+        visibility: hidden;
+        margin-right: 0%;
+        padding-top: 0%;
+    }
+
+    .menu_bar {
+        visibility: visible;
+        padding-left: 260px;
+    }
+
+
+    /* BANNER SECTION */
+
+    .banner_section {
+        display: flex;
+        flex-direction: column;
+        width: 520px;
+        height: 560px;
+        flex-shrink: 0;
+        padding-left: 40px;
+        border-radius: 20px;
+    }
+
+    .banner_class_1 {
+        padding-top: 20px;
+    }
+
+    .Explore {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .banner_class_2 {
+        background: rgba(255, 255, 255, 0.30);
+        flex-direction: column;
+        margin-left: 120px;
+        padding-left: 60px;
+        margin-right: 120px;
+        padding-right: 60px;
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        gap: 10px;
+    }
+
+    .input {
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* Our Popular Tours  */
+    .popular_tours {
+        margin-top: 20px;
+        flex-direction: column;
+        padding: 0%;
+        padding-left: 20px;
+    }
+
+    .popular_tours_text {
+        width: 90%;
+    }
+
+    .popular_tours_text img {
+        padding-left: 0%;
+        height: 500px;
+        width: 520px;
+        padding-top: 20px;
+        margin: 0%;
+    }
+
+    /* Choose Your Destination */
+
+    .fist_destination {
+        flex-direction: column;
+    }
+
+    .Destination_text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .fist_destination img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .country_1 {
+        top: 20%;
+        left: 35%;
+    }
+
+    .country_2 {
+        top: 70%;
+        left: 25%;
+    }
+
+    .country_3 {
+        top: 12%;
+        left: 35%
+    }
+
+    .country_4 {
+        top: 45%;
+        left: 35%
+    }
+
+    .country_5 {
+        top: 80%;
+        left: 12%
+    }
+
+    .country_6 {
+        top: 20%;
+        left: 30%
+    }
+
+    .country_7 {
+        top: 70%;
+        left: 12%
+    }
+
+    /* Why Choose Us */
+
+    .choose_us_text {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .choose_us {
+        flex-direction: column;
+    }
+
+    .choose_us_1 {
+        width: 85%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .choose_us_2 {
+        margin-left: 30px;
+        width: 85%;
+        margin-right: 20px;
+        padding: 10px;
+    }
+}
